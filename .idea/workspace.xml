@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca003d41-044a-4c33-aaa1-7d9d98b3b8ed" name="Default Changelist" comment="" />
+    <list default="true" id="ca003d41-044a-4c33-aaa1-7d9d98b3b8ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tango/Tango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tango/Tango/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1fSk0XyKoMWqHXit028WFkHlvYA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -21,6 +30,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="C:\Users\chandran.narendraraj\.virtualenvs\django-mVZiWPfR\Scripts\python.exe" working-directory="$PROJECT_DIR$">
+        <option name="mySdkHome" value="C:\Users\chandran.narendraraj\.virtualenvs\django-mVZiWPfR\Scripts\python.exe" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+      </console-settings>
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,17 +57,37 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="603" y="511" key="#Menus_and_Toolbars/0.0.3840.2120@0.0.3840.2120" timestamp="1596218987515" />
+    <state x="515" y="713" key="#Notifications" timestamp="1596228963075">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="515" y="713" key="#Notifications/0.0.3840.2120@0.0.3840.2120" timestamp="1596228963075" />
+    <state x="1592" y="787" width="758" height="546" key="#Other_File_Types" timestamp="1596224910916">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1592" y="787" width="758" height="546" key="#Other_File_Types/0.0.3840.2120@0.0.3840.2120" timestamp="1596224910916" />
+    <state x="1358" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596228137794">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1358" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2120@0.0.3840.2120" timestamp="1596228137794" />
     <state x="442" y="781" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596219033821">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="442" y="781" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2120@0.0.3840.2120" timestamp="1596219033821" />
-    <state x="535" y="549" key="FileChooserDialogImpl" timestamp="1596219908711">
+    <state x="535" y="549" key="FileChooserDialogImpl" timestamp="1596228566834">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="535" y="549" key="FileChooserDialogImpl/0.0.3840.2120@0.0.3840.2120" timestamp="1596219908711" />
+    <state x="535" y="549" key="FileChooserDialogImpl/0.0.3840.2120@0.0.3840.2120" timestamp="1596228566834" />
+    <state x="938" y="355" key="SettingsEditor" timestamp="1596228589814">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="938" y="355" key="SettingsEditor/0.0.3840.2120@0.0.3840.2120" timestamp="1596228589814" />
     <state x="579" y="879" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596218965460">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="579" y="879" key="git4idea.remote.GitConfigureRemotesDialog/0.0.3840.2120@0.0.3840.2120" timestamp="1596218965460" />
+    <state x="286" y="-2" width="1344" height="2556" key="search.everywhere.popup" timestamp="1596228498915">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="286" y="-2" width="1344" height="2556" key="search.everywhere.popup/0.0.3840.2120@0.0.3840.2120" timestamp="1596228498915" />
   </component>
 </project>

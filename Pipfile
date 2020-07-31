@@ -9,6 +9,8 @@ verify_ssl = true
 requestes = "*"
 Django = "*"
 pillow = "*"
+ipython = "*"
+django-crispy-forms = "*"
 
 [requires]
 python_version = "3.8"
