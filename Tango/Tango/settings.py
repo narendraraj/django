@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
+
 
 
 # Quick-start development settings - unsuitable fpipr production
@@ -28,6 +28,7 @@ SECRET_KEY = '(md*a=y(@9o92wdeei_4b3fmugf3sk4@sbp^%uv50&$fgyf7k4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# DEBUG= False
 
 ALLOWED_HOSTS = []
 
@@ -76,7 +77,7 @@ TEMPLATES = [
 ]
 
 
-STATICFILES_DIRS = [STATIC_DIR,]
+
 
 
 
@@ -133,3 +134,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+
+    os.path.join(BASE_DIR, 'static')
+
+    ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')

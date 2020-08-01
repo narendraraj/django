@@ -19,6 +19,7 @@ from django.urls import include
 from rango import views
 
 
+
 urlpatterns = [
     # path('', views.index, name='index'),
     #  moved the above view to rango/urls.py
