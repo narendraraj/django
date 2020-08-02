@@ -90,7 +90,7 @@ TEMPLATES = [
 
 
 
-WSGI_APPLICATION = 'Tango.wsgi.application'
+WSGI_APPLICATION = 'Tango.wsgi.application'g
 
 
 # Database
