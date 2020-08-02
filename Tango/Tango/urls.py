@@ -25,7 +25,7 @@ from rango import views
 
 
 urlpatterns = [
-    # path('', views.index, name='index'),
+     path('', views.homeview, name='Home'),
     # path('home/', homeview),
     # path('about/', aboutview),
     #  moved the above view to rango/urls.py
