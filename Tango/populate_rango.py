@@ -18,6 +18,7 @@ def populate():
          'url': 'http://www.korokithakis.net/tutorials/python/'},
     ]
 
+
     django_pages = [
         {'title': 'Official Django Tutorial',
          'url': 'http://docs.djangoproject.com/en/3.0/'},
@@ -35,6 +36,8 @@ def populate():
          'url': 'https://flask.palletsprojects.com/en/1.1.x/'},
 
     ]
+
+
 
     cats = {'Python': {'pages': python_pages},
             'Django': {'pages': django_pages},

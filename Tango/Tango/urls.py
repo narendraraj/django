@@ -20,12 +20,12 @@ from django.urls import include
 from django.conf import settings
 from django.conf.urls.static import static
 # from rango.views import aboutview, homeview
-from rango import views
+# from rango import views
 
 
 
 urlpatterns = [
-     path('', views.homeview, name='Home'),
+     # path('', views.homeview, name='Home'),
     # path('home/', homeview),
     # path('about/', aboutview),
     #  moved the above view to rango/urls.py
