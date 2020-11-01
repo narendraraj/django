@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ca003d41-044a-4c33-aaa1-7d9d98b3b8ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tango/populate_rango.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tango/populate_rango.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tango/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tango/rango/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tango/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tango/rango/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tango/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tango/rango/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tango/populate_rango.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1fSk0XyKoMWqHXit028WFkHlvYA" />
@@ -62,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tango/populate_rango.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.documentation.PythonDocumentationConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -75,19 +77,19 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="populate_rango" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\chandran.narendraraj\.virtualenvs\django-mVZiWPfR\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tango" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tango/populate_rango.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +155,11 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="773" y="257" key="#Plugins/0.0.2560.1409@0.0.2560.1409" timestamp="1603096909431" />
-    <state x="905" y="374" width="1112" height="803" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596747464628">
+    <state x="905" y="374" width="1097" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603641567785">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="905" y="372" width="1112" height="803" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596281481994" />
-    <state x="905" y="374" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1596747464628" />
+    <state x="905" y="374" width="1097" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1603641567785" />
     <state x="1358" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2120@0.0.3840.2120" timestamp="1596228137794" />
     <state x="0" y="333" width="1398" height="750" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1596747524078">
       <screen x="0" y="0" width="2560" height="1409" />
@@ -167,20 +169,53 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="442" y="781" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2120@0.0.3840.2120" timestamp="1596219033821" />
-    <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog" timestamp="1596292512759">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="93" y="101" width="1093" height="1215" key="DiffContextDialog" timestamp="1603642141531">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="93" y="100" width="1093" height="1207" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596292512759" />
+    <state x="93" y="101" width="1093" height="1215" key="DiffContextDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1603642141531" />
     <state x="737" y="384" key="EnvironmentVariablesDialog" timestamp="1596280152278">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="737" y="384" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596280152278" />
-    <state x="357" y="365" key="FileChooserDialogImpl" timestamp="1602770487485">
+    <state x="357" y="365" key="FileChooserDialogImpl" timestamp="1603641560379">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="357" y="363" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596282812945" />
-    <state x="357" y="365" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1602770487485" />
+    <state x="357" y="365" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1603641560379" />
     <state x="535" y="549" key="FileChooserDialogImpl/0.0.3840.2120@0.0.3840.2120" timestamp="1596228566834" />
+    <state width="1240" height="467" key="GridCell.Tab.0.bottom" timestamp="1603660606060">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606060" />
+    <state width="1240" height="467" key="GridCell.Tab.0.center" timestamp="1603660606059">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606059" />
+    <state width="1240" height="467" key="GridCell.Tab.0.left" timestamp="1603660606059">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606059" />
+    <state width="1240" height="467" key="GridCell.Tab.0.right" timestamp="1603660606059">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606059" />
+    <state width="1240" height="467" key="GridCell.Tab.1.bottom" timestamp="1603660606060">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.1.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606060" />
+    <state width="1240" height="467" key="GridCell.Tab.1.center" timestamp="1603660606060">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.1.center/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606060" />
+    <state width="1240" height="467" key="GridCell.Tab.1.left" timestamp="1603660606060">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.1.left/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606060" />
+    <state width="1240" height="467" key="GridCell.Tab.1.right" timestamp="1603660606060">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1240" height="467" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1603660606060" />
     <state x="346" y="332" key="RollbackChangesDialog" timestamp="1596297410364">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

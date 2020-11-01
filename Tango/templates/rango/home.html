@@ -6,30 +6,33 @@
     <title>Rango-Home</title>
 </head>
 <body>
-<a href="/rango/about/">About</a> <br>
-<a href="/rango/info/"">Info</a> <br>
+
 
     <h1>Rango says...</h1>
     <div>
         Hello naren! <br/>
-      <strong>{{boldletters}} </strong>
+      <strong> {{boldletters}} </strong>
     </div>
 
 
     <div>
-    {% if categories  %}
-        <ul>
-            {% for category in categories %}
-                <li>
-                    {{ category.name }}
-                </li>
-            {% endfor %}
-        </ul>
-   {% else %}
-        <strong> There are no categories present.</strong>
-    {% endif%}
+        {% if categories  %}
+            <ul>
+                {% for category in categories %}
+                    <li>
+                        <a href ="/rango/category/{{ category.slug }}/">{{ category.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <strong> There are no categories present.</strong>
+        {% endif%}
     </div>
 
+    <div>
+        <a href="/rango/about/">About</a> <br>
+        <a href="/rango/info/">Info</a> <br>
+    </div>
 
     <div>
         <img alt=" the Avengers" src="{%static 'images/image3.png' %}"  >
@@ -37,9 +40,6 @@
     <div>
         <img alt=" the Avengers" src="{{MEDIA_URL}}image3.png"  >
     </div>
-
-
-
 
 
 </body>
