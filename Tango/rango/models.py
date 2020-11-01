@@ -5,14 +5,14 @@ from django.template.defaultfilters import slugify
 # Create your models here.
 
 class Category(models.Model):
-    name = models.CharField(max_length = 128, unique = True)
+    name = models.CharField(max_length = 128 , unique = True)
     views = models.IntegerField(default = 0)
     likes = models.IntegerField(default = 0)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(unique = True)
 
-    def save(self, *args, **kwargs):
+    def save(self , *args , **kwargs):
         self.slug = slugify(self.name)
-        super(Category, self).save(*args, **kwargs)
+        super(Category , self).save(*args , **kwargs)
 
     class Meta:
         verbose_name_plural = 'Categories'
@@ -20,7 +20,6 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
-
 
 
 class Page(models.Model):
