@@ -2,3 +2,5 @@
 Tango/db.sqlite3
 *.pyc
 !/.idea/
+
+Tango/SECRET_KEY.txt

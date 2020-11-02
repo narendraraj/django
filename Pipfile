@@ -7,11 +7,11 @@ verify_ssl = true
 
 [packages]
 requestes = "*"
-Django = "*"
-pillow = "*"
-ipython = "*"
+Django = "3.0.8"
+pillow = "7.2.0"
+ipython = ""
 django-crispy-forms = "*"
-django-filter = "*"
+django-filter = "2.3.0"
 
 [requires]
 python_version = "3.8"
